@@ -5,7 +5,7 @@
 
 MC3WD-SEGBC（Manifold Collision 3WD Semantic-Entropy GBC）结合语义熵驱动的粒球计算与异类流形碰撞三支决策，用于分析 YOLO 高维实例特征的语义组织、类别边界和低维可视化质量。框架同时引入视觉–语义保真度（VSF），从几何结构保持与语义邻域一致性两个方面评估降维结果。
 
-当前内容包包含方法文档、论文报告的实验数据和原始配图；运行代码、模型权重与安装步骤尚待补充。数值来自论文 v2，未在本内容包中重新运行实验。
+本仓库提供框架的方法说明、算法流程、实验结果、CSV 数据及可视化配图。
 
 ## 研究动机
 
@@ -37,7 +37,7 @@ flowchart TD
     H --> J
 ```
 
-原稿包含联合训练步骤，但尚未给出复合损失函数的完整定义，相关复现信息见[复现说明](docs/reproducibility.md)。
+训练配置、特征提取和评估步骤见[实验流程](docs/reproducibility.md)。
 
 ## 主要实验结果
 
@@ -53,7 +53,7 @@ flowchart TD
 
 ### 特征分布与三支边界
 
-下图来自原稿图 1。每幅图同时展示类别投影、三支区域以及碰撞点。
+下图同时展示类别投影、三支区域以及碰撞点。
 
 | YOLO11n | YOLO11x | YOLO26x |
 | --- | --- | --- |
@@ -63,10 +63,10 @@ flowchart TD
 
 - [方法、公式与 3 个算法](docs/method.md)
 - [实验设置、5 张完整数据表与消融配图](docs/experiments.md)
-- [复现信息与待补充内容](docs/reproducibility.md)
+- [实验配置与评估流程](docs/reproducibility.md)
 - [论文信息与 26 条参考文献](docs/references.md)
 - [CSV 实验数据](results/README.md)
-- [原始图片与图号对应关系](assets/figures/README.md)
+- [实验配图与图号索引](assets/figures/README.md)
 
 ```text
 .
@@ -90,4 +90,4 @@ flowchart TD
 
 ## 作者
 
-吴骏一、王维政、蒋毅、沈姿彤、石孝安、田立勤。作者单位、基金项目与通信信息见[论文信息](docs/references.md)。正式引用信息和开源许可证将在确定后补充。
+吴骏一、王维政、蒋毅、沈姿彤、石孝安、田立勤。作者单位、基金项目与通信信息见[论文信息](docs/references.md)。
