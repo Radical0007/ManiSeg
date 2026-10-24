@@ -1,0 +1,8 @@
+stage,parameter,value
+GBC构建阶段（v3_spherical_entropy）,radius_percentile,95.0
+GBC构建阶段（v3_spherical_entropy）,entropy_log_base,2.0
+GBC构建阶段（v3_spherical_entropy）,max_split_depth,12.0
+GBC构建阶段（v3_spherical_entropy）,min_entropy_gain,0.003
+GBC构建阶段（v3_spherical_entropy）,split_k,2.0
+GBC构建阶段（v3_spherical_entropy）,split_min_child,12.0
+3WD阶段（v3_spherical_collision）,collision_gamma,1.1

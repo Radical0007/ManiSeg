@@ -1,0 +1,4 @@
+configuration,silhouette,vsf,gtf,snh,bnd_rate_percent,multi_cover_rate_percent,coverage_at_risk
+仅GBC,-0.138,0.606,0.972,0.239,-,98.50,0.150
+GBC+语义熵,0.513,0.803,0.714,0.921,-,94.12,0.114
+GBC+MC3WD,-0.051,0.770,0.735,0.961,10.05,96.71,0.071

@@ -1,0 +1,4 @@
+model,silhouette,vsf,gtf,snh,bnd_rate_percent,multi_cover_rate_percent,coverage_at_risk,fpr_95_reported
+YOLO11n,0.425,0.829,0.735,0.916,10.05,92.61,0.021,6.74
+YOLO11x,0.597,0.845,0.769,0.921,1.82,90.92,0.012,1.95
+YOLO26x,0.654,0.865,0.769,0.961,0.30,88.47,0.011,1.15
